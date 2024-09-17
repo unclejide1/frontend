@@ -8,10 +8,10 @@ function BaseFooter() {
           <div className="col-lg-4 col-md-6 col-12 text-white">
             {/* about company */}
             <div className="mb-4">
-              <h1>LMS</h1>
+              <h1>LSH</h1>
               <div className="mt-4">
                 <p>
-                  LMS is a learning management system for you to enroll and learn
+                  LSH is a learning management system for you to enroll and learn SQL
                 </p>
                 {/* social media */}
                 <div className="fs-4 mt-4">
