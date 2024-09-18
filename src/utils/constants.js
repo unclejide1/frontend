@@ -1,7 +1,7 @@
 import UserData from "../views/plugin/UserData";
 
-export const API_BASE_URL = "http://localhost:8000/api/v1/";
-export const SERVER_URL = "http://localhost:8000/";
+export const API_BASE_URL = "http://localhost:80/api/v1/";
+export const SERVER_URL = "http://localhost:80/";
 export const CLIENT_URL = "http://localhost:5173";
 export const PAYPAL_CLIENT_ID = "test";
 export const CURRENCY_SIGN = "$";
