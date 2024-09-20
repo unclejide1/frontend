@@ -993,13 +993,14 @@ function CourseDetail() {
           <Modal.Title>Lesson: {variantitem?.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <ReactPlayer
+          {/* <ReactPlayer
             url={`${variantitem?.file}`}
             controls
             playing
             width={"100%"}
             height={"100%"}
-          />
+          /> */}
+          <h1>{variantitem?.title}</h1>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
