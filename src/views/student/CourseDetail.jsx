@@ -1000,7 +1000,7 @@ function CourseDetail() {
             width={"100%"}
             height={"100%"}
           /> */}
-          <h1>{variantitem?.description}</h1>
+          <p>{variantitem?.description}</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
